@@ -39,7 +39,7 @@ function resetGame() {
 }
 
 function handleGuess() {
-  const guess = Number(document.querySelector(".guess").value);
+  const guess = Number(guess.value);
 
   if (!guess || guess < 1 || guess > 20) {
     displayMessage("Please Enter a number between 1 and 20!!");
