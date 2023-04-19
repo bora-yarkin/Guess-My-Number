@@ -1,7 +1,7 @@
 "use strict";
 //Optimized code
 // Select elements and store them in variables
-const checkBtn = document.querySelector(".check");
+/* const checkBtn = document.querySelector(".check");
 const againBtn = document.querySelector(".again");
 const message = document.querySelector(".message");
 const number = document.querySelector(".number");
@@ -72,12 +72,12 @@ checkBtn.addEventListener("click", handleGuess);
 
 againBtn.addEventListener("click", function () {
   resetGame();
-});
+}); */
 
-let scores = [];
+//let scores = [];
 
 //Unoptimized code
-/* let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 
 //for testing log the random number to the console
 console.log(secretNumber);
@@ -137,4 +137,3 @@ document.querySelector(".again").addEventListener("click", function () {
   //for testing purposes log the updated secret number to the console
   console.log(secretNumber);
 });
- */
